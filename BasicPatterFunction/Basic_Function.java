@@ -51,5 +51,6 @@ public class Basic_Function {
         System.out.println("enter number for factorial");
         int fact = sc.nextInt();
         calculateFactorial(fact);
+        sc.close();
     }
 }

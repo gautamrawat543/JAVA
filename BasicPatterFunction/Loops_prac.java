@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Loops_prac {
     // public static void main(String[] args) {

@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class NumberCount {
     public static void main(String[] args) {
@@ -25,5 +25,6 @@ public class NumberCount {
         System.out.println("Positive number entered - " + positiveNumber);
         System.out.println("Negative number entered - " + negativeNumber);
         System.out.println("Zero number entered - " + zeroNumber);
+        sc.close();
     }
 }

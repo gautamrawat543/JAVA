@@ -106,6 +106,7 @@ class firstcode {
                 System.out.println("enter only number 1 2 3");
                 break;
         }
+        sc.close();
     }
 
 }

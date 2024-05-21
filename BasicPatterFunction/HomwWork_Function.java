@@ -60,5 +60,6 @@ public class HomwWork_Function {
         // int prime = sc.nextInt();
         // checkPrime(prime);
         numberRaised(5, 3);
+        sc.close();
     }
 }
