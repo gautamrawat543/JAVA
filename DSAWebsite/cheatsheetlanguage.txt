@@ -1,2 +1,7 @@
 cheatsheets of languages -
 quickref.me(java , bash , linux)
+
+links-
+https://levelup.gitconnected.com/how-much-java-you-need-to-get-your-first-job-8c2bb2803d1b
+
+https://betterprogramming.pub/how-much-java-do-you-need-to-learn-to-get-your-first-job-476b06db68b7
