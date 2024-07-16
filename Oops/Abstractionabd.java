@@ -27,6 +27,14 @@ class Chicken extends Animal {
     public void walk() {
         System.out.println("Walks in 2 legs");
     }
+
+    public void eats() {
+        System.out.println("Chicken can eat");
+    }
+
+    Chicken(){
+        System.out.println("Chicken is created");
+    }
 }
 
 public class Abstractionabd {
@@ -34,5 +42,9 @@ public class Abstractionabd {
         Horse h1 = new Horse();
         h1.walk();
         h1.eats();
+
+        Chicken c1 = new Chicken();
+        c1.walk();
+        c1.eats();
     }
 }

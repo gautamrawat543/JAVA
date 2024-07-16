@@ -18,6 +18,5 @@ public class ArgByRef {
         System.out.println("x= "+p1.x+ " y= "+p1.y);
         change(p1);
         System.out.println("x= "+p1.x+ " y= "+p1.y);
-
     }
 }

@@ -26,7 +26,7 @@ public class Polymorphabc {
     public static void main(String[] args) {
         Students s1 = new Students();
         s1.age = 18;
-        s1.name = "gautamrawta";
+        s1.name = "gautam rawat";
         s1.printInfo(32);
         s1.printInfo(s1.name);
         s1.printInfo(s1.name, s1.age);

@@ -2,6 +2,7 @@ package Oops;
 
 class Shape {
     String color;
+    boolean isFilled=true;
 }
 
 // trainle class ne shape ki properties and methods ko inherit kr liye apne
@@ -15,6 +16,11 @@ public class Inheritanceabc {
         Triangle t1 = new Triangle();
         t1.color = "blue"; // trianle class ke andar color property define nhi kiya par shape class se
                            // inherit kiya
+
+        System.out.println(t1.color + ' ' + t1.isFilled);
+        t1.isFilled=false;
+        System.out.println(t1.color + ' ' + t1.isFilled);
+
     }
 }
 

@@ -6,9 +6,9 @@ public class examplegcd {
         int gcd = 1;
         int tempnum;
         if (num1 > num2) {
-            tempnum = num1;
-        } else if (num1 < num2) {
             tempnum = num2;
+        } else if (num1 < num2) {
+            tempnum = num1;
         } else {
             tempnum = num1;
         }

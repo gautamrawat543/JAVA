@@ -20,7 +20,7 @@ class Student {
     }
 
     Student(String name, int age) {
-        System.out.println("construction working or called  ");
+        System.out.println("construction working was called  ");
         this.name = name;
         this.age = age;
     }
@@ -39,7 +39,7 @@ public class ObjectClass {
         pen1.printColorType();
         pen2.printColorType();
 
-        Student s1 = new Student("rawat", 3);
+        Student s1 = new Student("rawat", 3); // constructor se he data pass kr diya
         s1.printInfo();
     }
 }
