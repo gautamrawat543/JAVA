@@ -6,3 +6,5 @@ https://roadmap.sh/datastructures-and-algorithms
 https://roadmap.sh/cyber-security
 
 https://www.interviewbit.com/courses/programming/
+
+https://whimsical.com/java-PWZ7SqPC3K8m4tZSejZnPP

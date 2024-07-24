@@ -44,6 +44,6 @@ public class Switch_Statement {
             System.out.println("Enter 1 to continue or 0 to exit: ");
             choice = sc.nextInt();
         }while(choice!=0);
-       
+       sc.close();
     }
 }
