@@ -27,7 +27,7 @@ public class Example {
         // after creating .toString in MethodOverriden class
         // we can call it both implicitly and explicitly
 
-        System.out.println(student); // this is implicitly calling 
+        System.out.println(student); // this is implicitly calling
 
     }
 

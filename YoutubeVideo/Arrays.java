@@ -6,8 +6,9 @@ public class Arrays {
         int[] numbers = new int[5]; // number inside bracket is the length of the array
         numbers[0] = 10;
         numbers[1] = 20;
-        System.out.println(numbers);
-        System.out.println(java.util.Arrays.toString(numbers));
+        System.out.println(numbers); // this will return the address of the array
+        // Arrays.toString() will return the data in string format
+        System.out.println(java.util.Arrays.toString(numbers)); 
 
         // initialize array with values
         int[] numbers2 = { 40, 20, 10, 50, 30 };
@@ -27,7 +28,8 @@ public class Arrays {
             System.out.println();
         }
         System.out.println(java.util.Arrays.toString(numbers3)); // this will return the address of the array
-        System.out.println(java.util.Arrays.deepToString(numbers3));// this will return the values of the array
+        // this will return the values of the array . used in multidimensional array
+        System.out.println(java.util.Arrays.deepToString(numbers3));
 
         // multidimensional array with values
         int[][] numbers4 = { { 10, 20 }, { 30, 40 } };

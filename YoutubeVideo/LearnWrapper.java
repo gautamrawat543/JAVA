@@ -10,10 +10,10 @@ public class LearnWrapper {
 
         // primitive //wrapper
         // --------- //-------
-        // boolean Boolean
-        // char Character
-        // int Integer
-        // double Double
+        // boolean      Boolean
+        // char         Character
+        // int          Integer
+        // double       Double
 
         // autoboxing = the automatic conversion that the Java compiler makes between
         // the primitive types and their corresponding object wrapper classes

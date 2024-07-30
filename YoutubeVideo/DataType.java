@@ -30,12 +30,13 @@ public class DataType {
         System.out.println(name.charAt(5));
         System.out.println(name.indexOf('u'));
         System.err.println(name.replace('a', 'p'));
-        System.out.println(name.toUpperCase()); // u will see the above code doesnt change the main string because in
-                                                // java strings are immutable
+        System.out.println(name.toUpperCase());
+        // u will see the above code doesnt change the main string because in java
+        // strings are immutable
 
         System.out.println("hello \"gautam\""); // backslash to escape
         System.out.println("C:\\Windows\\Users\\HP\\..\\");
-        System.out.println("hello \ngautam");
+        System.out.println("hello \ngautam"); // to add new line
         System.out.println("gautam\trawat"); // to add tab space
 
     }

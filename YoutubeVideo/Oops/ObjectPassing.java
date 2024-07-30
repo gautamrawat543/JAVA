@@ -2,8 +2,8 @@ package YoutubeVideo.Oops;
 
 public class ObjectPassing {
     public static void main(String[] args) {
-        Garage garage = new Garage();
         Car carName = new Car("Maruti");
+        Garage garage = new Garage();
 
         garage.drive(carName);
     }

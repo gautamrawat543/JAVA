@@ -1,6 +1,8 @@
 package Files;
 
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class DemoFile {
     // file is an abstract representation of a file or directory on the file system.
@@ -25,6 +27,21 @@ public class DemoFile {
 
         } else {
             System.out.println("File2 does not exist");
+        }
+
+        System.out.println();
+
+        // File Writer class how to write inside a file
+        try { 
+            // this can create or rewrite the existing file
+            FileWriter writer = new FileWriter("Files/poem.txt"); // file name, can also provide path
+            writer.write("Hello Gautam\nHow are you\nWish u well"); // this will rewrite the file
+            writer.append("\nThis line is appended"); // adds a new line to the file
+            writer.close(); // always close the file writer
+
+        } catch (IOException e) {// file writer should always have an exception block
+            // TODO Auto-generated catch block
+            e.printStackTrace();
         }
     }
 

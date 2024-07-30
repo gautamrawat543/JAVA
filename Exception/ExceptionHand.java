@@ -1,4 +1,4 @@
-package YoutubeVideo;
+package Exception;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

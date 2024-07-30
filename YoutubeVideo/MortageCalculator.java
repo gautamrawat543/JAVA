@@ -71,7 +71,7 @@ public class MortageCalculator {
         while (true) {
             System.out.print("Enter Principal  ($10k - $1M): ");
             principal = sc.nextFloat();
-            if (principal >= 10000 && principal <= 1000000) {
+            if (principal >= 10_000 && principal <= 1_000_000) { 
                 break;
             }
             System.out.println("Enter Principal between 10000 and 1000000");

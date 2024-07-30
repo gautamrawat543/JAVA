@@ -52,8 +52,8 @@ class MyCar {
     private int year;
 
     MyCar(String name, String color, int year) {
-        // this.name = name; this works but not a good practice so we will use
-        // this.color = color; the setters to set the values
+        // this.name = name;            this works but not a good practice so we will use
+        // this.color = color;          the setters to set the values
         // this.year = year;
 
         this.setName(name);

@@ -15,8 +15,8 @@ public class Polymorphism {
         // tiger.tame();
         // horse.tame();
 
-        Animal[] animals = { dog, tiger, horse }; // polymorphism- dog, tiger, horse have Animal class in common as they
-                                                  // all extends Animal class
+        Animal[] animals = { dog, tiger, horse }; 
+        // polymorphism- dog, tiger, horse have Animal class in common as they all extends Animal class
         // instead of calling tame() three times we can call it once using parent class
         for (Animal a : animals) {
             a.tame();
